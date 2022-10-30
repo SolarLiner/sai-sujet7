@@ -10,7 +10,7 @@ from bdrpca.drpca import DRPCA
 
 _M: TypeAlias = np.ndarray[tuple[int, int], np.dtype[np.float_]]
 
-IMG_WIDTH = 100
+IMG_WIDTH = 1000
 
 
 def args() -> tuple[Path]:
